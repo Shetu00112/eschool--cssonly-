@@ -210,11 +210,12 @@ ul li a{
         font-size: 24px;
     }
     .get{
-        font-size: 12px;
+        font-size: 10px;
+        padding: 6px 16px;
     }
+
     .h-col img{
-        margin-top: 20px;
-        width: 80%;
+        width:80%;
     }
     .h-col p{
         font-size: 14px;
@@ -252,15 +253,16 @@ ul li a{
     .f-col{
         flex-basis: 100%;
         font-size: 12px;
-        /* max-width: 400px; */
+      
     }
     .f-p{
         font-size: 10px;
-        padding-left: 20px;
-        /* max-width: 150px; */
+        padding: 20px;
+      
     }
     .f-col ul li a{
         font-size: 10px;
+        padding: 5px 0;
     }
     
 }
