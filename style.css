@@ -94,37 +94,44 @@ ul li a{
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     margin: auto 20px;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 20px 10px;
 
 }
 .col3 img{
-    width:85%;
-    border-radius: 20px;
+    width:100%;
+    border-radius: 11px;
     margin: auto;
 }
 .buy{
+    display: inline-block;
     font-size: 10px;
     padding: 8px 28px;
+    margin: 10px 0;
 }
-.content{
-    margin: 10px 20px;
-    
+.col3 h4{
+    margin-top: 10px;
 }
 .col3 p{
     font-size: 10px;
 }
 .icon{
-    position: absolute
+   float: clear;
+}
+.icon .fa{
+    padding: 0 5px;
 }
 .icon1{
-    position: relative;
-    left: 0;
-    bottom: 0;
-   
+  float: left;
 
 }
 .icon2{
-    position: relative;
-    right: 0;
-    bottom: 0;
+   float: right;
+}
+/* testimonial */
+.testimonial{
+    width: 50%;
+    margin: auto;
+}
+.col4{
+    padding: 0 20px;
 }
