@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navbar ul li{
     display: inline-block;
@@ -46,6 +47,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     margin: 100px auto;
+    flex-wrap: wrap;
 }
 .h-col{
     flex-basis: 46%;
@@ -171,4 +173,61 @@ ul li a{
     font-size: 14px;
     padding: 5px 0;
     color: #fff;
+}
+/* responsive */
+@media screen and (max-width:600px) {
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
+    .container{
+        width: 100%;
+    }
+    .h-col h3{
+        flex-basis: 100%;
+        font-size: 18px;
+    }
+    .get{
+        font-size: 12px;
+    }
+    .h-col img{
+        width: 100%;
+    }
+    .h-col p{
+        font-size: 10px;
+    }
+    .feature-col{
+        flex-basis: 40%;
+    }
+    .feature-col img{
+        width: 100%;
+    }
+    .course-col{
+        flex-basis: 50%;
+            
+    }
+    .course-col img{
+        width: 100%;
+    }
+    .t-col{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .f-row{
+        display: flex;
+        
+    }
+    .f-col{
+        flex-basis: 100%;
+        font-size: 12px;
+        max-width: 400px;
+    }
+    .f-p{
+        font-size: 10px;
+        max-width: 150px;
+    }
+    .f-col ul li a{
+        font-size: 10px;
+    }
+    
 }
