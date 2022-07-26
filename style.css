@@ -146,21 +146,29 @@ ul li a{
 /* footer */
 .footer{
     background: rgba(40, 37, 49, 1);
-    padding: 20px 0;
+    padding: 55px 0;
+    
+}
+.f-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-col{
+    text-align: center;
     color: #fff;
 }
-.footer ul li {
+.f-p{
+    text-align: left;
+}
+
+.f-col ul li {
     list-style: none;
 }
-.footer ul li a{
+.f-col ul li a{
     display: inline-block;
     font-size: 14px;
     padding: 5px 0;
-}
-.f-col{
-    flex-basis:60%;
-}
-.f-col1{
-    flex:1;
-    margin: 0 30px;
+    color: #fff;
 }
