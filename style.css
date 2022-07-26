@@ -183,21 +183,33 @@ ul li a{
     .container{
         width: 100%;
     }
-    .h-col h3{
+    nav{
+        position: relative;
+        top: 0;
+        right: -100%;
+    }
+    .row{
+        margin: 10px 0;
+    }
+    .h-col{
         flex-basis: 100%;
-        font-size: 18px;
+        text-align: center;
+    }
+    .h-col h3{
+        font-size: 24px;
     }
     .get{
         font-size: 12px;
     }
     .h-col img{
-        width: 100%;
+        width: 80%;
     }
     .h-col p{
-        font-size: 10px;
+        font-size: 14px;
     }
+
     .feature-col{
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
     .feature-col img{
         width: 100%;
