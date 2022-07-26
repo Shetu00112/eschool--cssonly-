@@ -188,6 +188,12 @@ ul li a{
     .container{
         width: 100%;
     }
+    .navbar{
+        padding: 10px;
+    }
+    .navbar img{
+        width: 150px;
+    }
     nav{
         position: relative;
         top: 0;
@@ -207,7 +213,8 @@ ul li a{
         font-size: 12px;
     }
     .h-col img{
-        width: 70%;
+        margin-top: 20px;
+        width: 80%;
     }
     .h-col p{
         font-size: 14px;
@@ -232,10 +239,9 @@ ul li a{
        display: flex;
        align-items: center;
        justify-content: center;
-       margin: 0 20px;
     }
     .t-col p{
-       min-width: 400px;
+       min-width: 250px;
        font-size: 10px;
        
     }
