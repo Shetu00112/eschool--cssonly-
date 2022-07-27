@@ -22,16 +22,17 @@
         <!-- navbar -->
             <div class="navbar">
                 <img src="images/ICON/Logo.png" alt="" width="200px">
-                <nav>
-                    <ul>
+                <nav id="menuitem">
+                    <ul >
                         <li><a href="">Books</a></li>
                         <li><a href="">Courses</a></li>
                         <li><a href="">Others</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="" class="btn">Sign in</a></li>
                     </ul>
-                </nav>
+                </nav>    
             </div>
+            <i class="fa fa-bars menu-icon" id="menubtn"></i>
             <!-- main content -->
             <main class="row main">
                 <div class="h-col">
@@ -180,5 +181,19 @@
             </div>
         </div>
     </section>
+    <!-- js -->
+    <script>
+        var menuitem = document.getElementById("menuitem");
+        var menubtn = document.getElementById("menubtn");
+        menuitem.style.maxHeight = "0px" ;
+        menubtn.onclick =function() {
+            if(menuitem.style.maxHeight =="0"){
+                menuitem.style.maxHeight = "400px"
+            }
+            else {
+                menuitem.style.maxHeight ="0"
+            }
+        }
+    </script>
   </body>
 </html>
